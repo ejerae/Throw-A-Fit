@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./categories/home";
-import Upload from "./categories/upload";
-import Closet from "./categories/closet";
+import Home from "./categories/home.js";
+import Upload from "./categories/upload.js";
+import Closet from "./categories/closet.js";
 
 function App() {
   return (
