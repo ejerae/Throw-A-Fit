@@ -1,34 +1,101 @@
 export default function Home() {
   return (
-    <div style={{ width: "1440px", height: "1024px", position: "relative", background: "white", overflow: "hidden" }}>
-      <div style={{ width: "1440px", height: "114px", position: "absolute", top: 0, overflow: "hidden" }}>
-        <div style={{ width: "252px", left: "589px", top: "59px", position: "absolute", textAlign: "center", display: "flex", justifyContent: "center", flexDirection: "column", color: "black", fontSize: "36px", fontFamily: "Josefin Sans, serif", fontStyle: "italic", fontWeight: 600 }}>
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+        position: "relative",
+        background: "white",
+        overflow: "hidden",
+      }}
+    >
+      {/* Header */}
+      <div
+        style={{
+          width: "100%",
+          height: "10%",
+          position: "absolute",
+          top: 0,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            color: "black",
+            fontSize: "2.5rem",
+            fontFamily: "Josefin Sans, serif",
+            fontStyle: "italic",
+            fontWeight: 600,
+            textAlign: "center",
+          }}
+        >
           Throw . A . Fit
         </div>
       </div>
 
-      <div style={{ width: "1440px", height: "278px", left: 0, top: "746px", position: "absolute", overflow: "hidden" }}>
-        <button style={{
-          width: "398px", height: "54px", position: "absolute", left: "558px", top: "114px",
-          background: "#007AFF", border: "none", borderRadius: "12px", color: "white", fontSize: "17px",
-          fontFamily: "SF Pro, sans-serif", cursor: "pointer"
-        }}>
+      {/* Footer / buttons */}
+      <div
+        style={{
+          width: "100%",
+          height: "20%",
+          position: "absolute",
+          bottom: "5%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "2rem",
+        }}
+      >
+        <button
+          style={{
+            flex: 1,
+            maxWidth: "250px",
+            height: "50px",
+            background: "#007AFF",
+            border: "none",
+            borderRadius: "12px",
+            color: "white",
+            fontSize: "1rem",
+            fontFamily: "SF Pro, sans-serif",
+            cursor: "pointer",
+          }}
+        >
           Throw a Fit
         </button>
 
-        <button style={{
-          width: "310px", height: "54px", position: "absolute", left: "208px", top: "114px",
-          borderRadius: "1000px", background: "rgba(0,0,0,0.05)", border: "none",
-          fontSize: "13px", fontFamily: "SF Pro, sans-serif", color: "#4C4C4C", cursor: "pointer"
-        }}>
+        <button
+          style={{
+            flex: 1,
+            maxWidth: "180px",
+            height: "50px",
+            borderRadius: "1000px",
+            background: "rgba(0,0,0,0.05)",
+            border: "none",
+            fontSize: "0.9rem",
+            fontFamily: "SF Pro, sans-serif",
+            color: "#4C4C4C",
+            cursor: "pointer",
+          }}
+        >
           Closet
         </button>
 
-        <button style={{
-          width: "310px", height: "54px", position: "absolute", left: "999px", top: "114px",
-          borderRadius: "1000px", background: "rgba(0,0,0,0.05)", border: "none",
-          fontSize: "13px", fontFamily: "SF Pro, sans-serif", color: "#4C4C4C", cursor: "pointer"
-        }}>
+        <button
+          style={{
+            flex: 1,
+            maxWidth: "180px",
+            height: "50px",
+            borderRadius: "1000px",
+            background: "rgba(0,0,0,0.05)",
+            border: "none",
+            fontSize: "0.9rem",
+            fontFamily: "SF Pro, sans-serif",
+            color: "#4C4C4C",
+            cursor: "pointer",
+          }}
+        >
           Upload
         </button>
       </div>
